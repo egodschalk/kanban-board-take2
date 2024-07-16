@@ -1,0 +1,57 @@
+:root {
+  --light: #f6f6f6;
+  --darkblue: #2c3e50;
+  --lightblue: #3498db;
+  --red: #e74c3c;
+  --lightred: #f9eae7;
+  --lightyellow: #fff5d1;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: var(--darkblue);
+}
+
+h1,
+.lead {
+  color: var(--light);
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid var(--darkblue);
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.header,
+.modal-header,
+.card-header {
+  background-color: var(--darkblue);
+  color: var(--light);
+  font-weight: 700;
+}
+
+.lane-header {
+  color: var(--darkblue);
+  font-weight: 700;
+}
+
+.task-late {
+  background-color: var(--lightred);
+}
+
+.task-today {
+  background-color: var(--lightyellow);
+}
